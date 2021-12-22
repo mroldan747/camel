@@ -9,7 +9,7 @@ public class HazelcastServiceFactory {
     }
 
     public static SimpleTestServiceBuilder<HazelcastService> builder() {
-        return new SimpleTestServiceBuilder<>("arangodb");
+        return new SimpleTestServiceBuilder<>("hazelCast");
     }
 
     public static HazelcastService createService() {
